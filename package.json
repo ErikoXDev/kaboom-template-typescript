@@ -1,10 +1,7 @@
 {
     "scripts": {
         "runServer": "node index.js",
-        "testServer": "nodemon index.js",
-        "noMinifyJs": "npx esbuild src/main.ts --bundle --keep-names --sourcemap --target=es6 --watch --outfile=dist/dist.js",
-        "buildJs": "npx esbuild src/main.ts --bundle --minify --sourcemap --keep-names --target=es6 --watch --outfile=dist/dist.js",
-        "buildJsOnce": "npx esbuild src/main.ts --bundle --minify --sourcemap --keep-names --target=es6 --outfile=dist/dist.js"
+        "testServer": "nodemon index.js"
     },
     "dependencies": {
         "esbuild": "^0.14.48",
